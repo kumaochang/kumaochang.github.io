@@ -1,21 +1,37 @@
 # Configuration of Hugo
 # Guide: https://docs.hugoblox.com/tutorial/
-# Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-# Website name (set in params.yaml under hugoblox.branding.name)
-title: ''
-# Website URL
-baseURL: 'https://example.com/'
+# 1. 網站標題與網址
+title: 'Mao-Chang Ku (古貿昌)'
+baseURL: 'https://kumaochang.github.io/' # 上線前記得改回你的 GitHub Pages 網址
 
 ############################
-## LANGUAGE
+## LANGUAGE & MENUS
 ############################
 
 defaultContentLanguage: en
-hasCJKLanguage: false
+hasCJKLanguage: true # 開啟對中文的支援
 defaultContentLanguageInSubdir: false
 removePathAccents: true
+
+# 2. 網站選單 (這裡設定網站上方的導覽列)
+menu:
+  main:
+    - name: Home
+      url: "#about"
+      weight: 10
+    - name: Publications
+      url: "#featured"
+      weight: 20
+    - name: Teaching
+      url: "#teaching"
+      weight: 30
+    - name: Projects
+      url: "#projects"
+      weight: 40
+    - name: Contact
+      url: "#contact"
+      weight: 50
 
 ############################
 ## PAGE OPTIONS
@@ -63,3 +79,10 @@ security:
   _merge: deep
 sitemap:
   _merge: deep
+
+# 3. 額外參數 (確保你的名字會正確顯示)
+params:
+  hugoblox:
+    branding:
+      name: "Mao-Chang Ku"
+  description: "Ph.D. Student in Linguistics at NTU, specializing in Computational Linguistics."

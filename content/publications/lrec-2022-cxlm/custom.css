@@ -1,0 +1,14 @@
+#bio h1,
+#bio .profile-name,
+#bio .profile-title {
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+/* Selected Publications formatting */
+#papers .pub-entry {
+  max-width: 960px;
+  margin-bottom: 0.85rem;
+  line-height: 1.4;
+  font-size: 1rem;
+}

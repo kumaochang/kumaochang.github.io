@@ -1,0 +1,36 @@
+<style>
+  /* Keep typography tweak */
+  #bio h1,
+  #bio .profile-name,
+  #bio .profile-title {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+</style>
+
+<script>
+  const removePubActions = () => {
+    const section = document.querySelector('#papers');
+    if (!section) { return; }
+    section.querySelectorAll('[data-toggle="modal"], .publication-links, .btn, .pub-icon-button').forEach(el => {
+      if (el.closest('.pub-list-item')) {
+        el.remove();
+      }
+    });
+    section.querySelectorAll('.pub-list-item a').forEach(a => {
+      if (!a.classList.contains('nav-link')) {
+        const text = a.textContent;
+        const span = document.createElement('span');
+        span.textContent = text;
+        a.replaceWith(span);
+      }
+    });
+  };
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', removePubActions);
+  } else {
+    removePubActions();
+  }
+  document.addEventListener('htmx:afterSwap', removePubActions);
+</script>

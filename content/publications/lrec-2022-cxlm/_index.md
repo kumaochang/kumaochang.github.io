@@ -8,7 +8,7 @@ sections:
     id: bio
     content:
       username: me
-      text: "I am a Ph.D. student in Linguistics at National Taiwan University. My research interests include computational linguistics, corpus linguistics, and syntax, with a special focus on Indigenous Formosan languages in Taiwan."
+      text: "Ph.D. student in Linguistics at NTU. Research interests include computational linguistics, corpus linguistics, syntax, and Formosan languages."
       button:
         text: Download CV
         url: uploads/resume.pdf
@@ -30,6 +30,6 @@ sections:
     content:
       title: Selected Publications
       text: |
-        - Mao-Chang Ku, Milingan Chia-hao Tai, Shu-Kai Hsieh (2025). A Corpus-based Study of Causative Constructions in Paiwan. _Foreign Language Studies, 41_, 1-33.
-        - Da-Chen Lian, Mao-Chang Ku, Po-Ya Angela Wang, Wei-Ling Chen, Shu-Kai Hsieh (2025). Empowering Elementary Learning: Utilizing Large Language Models to Craft Tailored Textbooks with Expert Insight. _Journal of Library and Information Studies, 23_(2), 145-183.
+        <div class="pub-entry">Mao-Chang Ku, Milingan Chia-hao Tai, Shu-Kai Hsieh (2025). A Corpus-based Study of Causative Constructions in Paiwan. <em>Foreign Language Studies, 41</em>, 1-33.</div>
+        <div class="pub-entry">Da-Chen Lian, Mao-Chang Ku, Po-Ya Angela Wang, Wei-Ling Chen, Shu-Kai Hsieh (2025). Empowering Elementary Learning: Utilizing Large Language Models to Craft Tailored Textbooks with Expert Insight. <em>Journal of Library and Information Studies, 23</em>(2).</div>
 ---

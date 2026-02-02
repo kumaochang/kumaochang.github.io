@@ -2,115 +2,64 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
-postnominals:
-  - PhD
-  - MIEEE
+  display: Mao-Chang Ku
+  given: Mao-Chang
+  family: Ku
 status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+  icon: "📚"
+role: Ph.D. Student in Linguistics
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  I am a Ph.D. student at the Graduate Institute of Linguistics, National Taiwan University (NTU).
+  My research interests lie at the intersection of Computational Linguistics, Corpus Linguistics, and Syntax,
+  with a special focus on Formosan languages. I was born in Taoyuan City, Taiwan (1985).
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: National Taiwan University (NTU)
+    url: https://www.ntu.edu.tw/
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
+    url: mailto:mcku1115@gmail.com
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
-  - icon: brands/github
-    url: https://github.com/example
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Computational Linguistics
+  - Corpus Linguistics
+  - Syntax
+  - Formosan Languages
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: Ph.D. in Linguistics (Ongoing)
+    institution: National Taiwan University
+    year: 2019
+  - degree: M.A. in Linguistics
+    institution: National Tsing Hua University
+    year: 2011
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+      Thesis: On Double Object Constructions and Applicative Constructions in Taiwan Southern Min.
+      Advisor: Prof. Wei-Tien Dylan Tsai.
+  - degree: B.A. in Foreign Languages and Literature
+    institution: National Taiwan University
+    year: 2008
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
-    summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
-
-skills:
-  - name: Technical Skills
-    items:
-      - label: Python
-        level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
-        level: 4
-  - name: Research & Communication
-    items:
-      - label: Academic Writing
-        level: 5
-      - label: Conference Presentations
-        level: 4
-      - label: Grant Proposals
-        level: 4
-
-languages:
-  - name: English
-    level: 5
-    label: Native
-  - name: Spanish
-    level: 4
-    label: Fluent
-
-awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+  - role: Teaching Assistant
+    org: Introduction to Programming for Data Science, NTU
+    start: 2021-02-01
+    end: 2021-06-30
+  - role: Teaching Assistant
+    org: Computational Linguistics and Linguistic Theories, NTU
+    start: 2023-02-01
+    end: 2023-06-30
+  - role: Teaching Assistant
+    org: Introduction to GenAI for Humanities, NTU
+    start: 2025-02-01
+    end: 2025-06-30
+  - role: Part-time Lecturer
+    org: Cardinal Tien Junior College of Health and Management
+    start: 2021-02-01
+    end: 2022-06-30
+  - role: Part-time Lecturer
+    org: Tatung University
+    start: 2022-09-01
+    end: 2024-06-30
